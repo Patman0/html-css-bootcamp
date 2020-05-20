@@ -1,0 +1,70 @@
+https://goo.gl/YJTNed
+
+https://github.com/GoesToEleven?tab=repositories
+cd documents/html-css-bootcamp/
+
+uploading to github
+
+c:/users/kimonaperters/html-css-bootcamp
+Commands
+pwd print current working directory
+cd (directory name) change directory
+cd ../ (go up a level ie go back one directory)
+cd ~ (bring you to homr directory)
+mkdir (directory name) makes a directory 
+ls (show directories)
+ls -la show directory priviliges
+clear
+cat (file name ex cat index.html) printswhat is in the file
+rm (file name)
+rm -rf (directory name/)removes all files in the directory
+
+
+
+*************************************************
+Create repository use the same name as on your local computer at bit hub
+
+*************************************************
+mkdir (directory name) makes a directory on local computer
+git init initialized the directory ie adds .git/ to the directory
+add gitignore file to any new directory copy from webdog and paste into the new folder
+Goto https://github.com/login patman0/
+Create repository
+copy git remote add origin https://github.com/Patman0/new directory name (add to local computer)
+copy git push -u origin master (add to local computer directory) 
+           
+…or push an existing repository from the command line
+git remote add origin https://github.com/Patman0/html-css-bootcamp.git
+git push -u origin master
+
+*****************************************************
+****my test git directory is cd html-css-bootcamp****
+*****************************************************
+To get changes to git hub go to the directory cd html-css-bootcamp
+
+***gitignore*****add gitignore file to any new directory copy from webdog and paste with windows
+$ git status (any file change will show in red)
+$ git add --all
+$ git commit -m "adds file name in red"
+$ git commit -m "adds first (x) where x is last folder ie three folders" if there are multiplr folders
+$ git status
+% git push
+On branch master
+Your branch is up to date with 'origin/master'.This tell us the file is uploaded to git hub.
+nothing to commit, working tree clean
+
+To Remove files from Github
+$ rm -rf filename
+$ ls this will show the file you removed is no longer displayed
+$ get status will show the files deleted in (red)
+S git add --all this stage the deleted file
+$ git status this show the stage files in green
+$ git commit -m "removes floder name"
+$ git status show your branch is ahead of origin/master
+$ git push  changes will now be pushed to github
+$ git log show log of the changes.
+
+To Remove a Repository
+While in the folder to be removes
+$ ls -la confirmn the directory have .git/ folder
+$ rm -rf (name of the directory/)
