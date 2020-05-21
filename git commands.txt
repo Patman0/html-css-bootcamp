@@ -67,4 +67,14 @@ $ git log show log of the changes.
 To Remove a Repository
 While in the folder to be removes
 $ ls -la confirmn the directory have .git/ folder
-$ rm -rf (name of the directory/)
+$ cd ../ go up one directory level
+$ ls to confirm the directory you wish to remove
+$ rm -rf (name of the directory/ to be removed)
+$ ls to confirm directory has been removed locally
+
+To remove from github
+go to github>enter repository>enter the directory>settings>scroll to dangerzone>delete this repository>enter the name of the repository
+you wish to delete>check I understand the consequences, delete this folder
+
+
+
